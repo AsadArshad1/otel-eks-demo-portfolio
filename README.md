@@ -35,5 +35,12 @@ Jaeger: http://localhost:16686
 ### SCREENSHOTS
 - `docs/` – diagrams, screenshots, runbook
 
+## Containerization of Microservices
+- Built Docker images for `ad`, `recommendation`, and `product-catalog`
+- Tagged and pushed them to Docker Hub:
+  - ad → dockerhub.io/asadarshad19/ad:v1
+  - recommendation → dockerhub.io/asadarshad19/recommendation:v1
+  - product-catalog → dockerhub.io/asadarshad19/product-catalog:v1
+
 
 
