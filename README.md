@@ -18,3 +18,22 @@ This repo documents deployment of the official OpenTelemetry microservices demo:
 - [ ] CI/CD: GitHub Actions for build & deploy
 - [ ] Observability: Grafana/Jaeger dashboards published
 
+## Local Deployment (Docker Compose)
+
+The demo runs locally with Docker Compose:
+
+bash
+"""cd upstream/opentelemetry-demo
+   docker compose up --build"""
+
+Frontend: http://localhost:8080
+
+Grafana: http://localhost:3000
+
+Jaeger: http://localhost:16686
+
+### SCREENSHOTS
+- `docs/` – diagrams, screenshots, runbook
+
+
+
